@@ -1,4 +1,36 @@
-.App {
+*{
+  margin: 0;
+}
+
+.app__header{
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  background-color:white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerimage{
+  object-fit: contain;
+}
+
+.app{
+  background-color: #FAFAFA;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts{
+  padding: 20px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +67,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
